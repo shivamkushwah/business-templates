@@ -1,0 +1,285 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+.header{
+	background: #7D19D6;
+
+}
+.header button{
+	 padding: 8px;
+   width: 150px;
+   display: inline-block;
+   text-decoration: none !important;
+   background:transparent;
+   color: #fff;
+   border: 1px solid #fff;
+   border-radius: 5px;
+   text-align: center;
+   font-size: 14px;
+}
+.header a{
+	color: #fff;
+
+}
+.container a{
+	color: #fff;
+	font-weight: bold;
+}
+.navbar-brand {
+     color: #fff;
+     background-color: #fff;
+     border: 1px solid #fff; 
+     border-radius: 5px;
+}
+.navbar{
+	padding-top: 20px !important;
+}
+.nav-item{
+	margin-bottom: 10px;
+	margin-left: 40px;
+}
+.nav-link{
+	color: #fff !important;
+	font-size: 12px !important;
+	padding: 0 0 5px 0 !important;
+	display: unset !important;
+}
+.fa-bars{
+	color: #fff;
+	font-size: 40px !important;
+}
+.navbar-toggler{
+	border: 0 !important;
+	outline: none !important;
+	padding: initial !important;
+}
+
+.active-home{
+	border-bottom: 2px solid #fff; 
+}
+.nav-link:hover{
+	border-bottom: 2px solid #fff;
+	
+}
+.row{
+	margin-top: 8%;
+	color: #fff;
+}
+.row h1{
+	margin: 60px 10 50px;
+	font-weight: 600;
+	font-size: 50px;
+}
+.row img{
+	max-height: 500px;
+}
+.row a{
+   padding: 12px;
+   width: 150px;
+   display: inline-block;
+   text-decoration: none !important;
+   background: #6900d1;
+   color: #fff;
+   border: 1px solid #fff;
+   border-radius: 5px;
+   text-align: center;
+   margin-top: 30px;
+   font-size: 14px;
+}
+.row a:hover{
+	background: #fff !important;
+
+}
+.shop-btn{
+	color: #000 !important;
+	background: #fff !important;
+	margin-right: 5px;
+             
+}
+/*--------------product service -------------------*/
+
+.service{
+	margin: 75px 0;
+}
+.title{
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+.subtitle{
+	text-align: center;
+	margin-bottom: 60px;
+	font-size: 15px;
+}
+.service-box h6{
+	color: #000;
+	margin-bottom: 40px;
+	font-weight:  bold;
+	text-align: center;
+
+}
+.service-box img{
+	  width: 120px;
+      margin-bottom: 45px;
+      margin-top: 65px;
+      text-align: center;
+	
+}
+.service-box{
+	padding: 0 35px;
+	cursor: pointer;
+	margin-bottom: 10px;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-top: 10px;
+	border: 1px solid #6900d1 !important;
+	border-radius: 150px 150px 150px 150px;
+	transition: .4s;
+
+}
+.service-box:hover,.active-service{
+	background: #6900d1;
+	border-radius: 150px 150px 150px 150px;
+	color: #fff !important;
+	box-shadow: 0 15px 15px 2px rgba(213,213,213,0.5);
+}
+.service-box:hover h6{
+	color: #fff !important;
+}
+.active-service h6{
+	color: #fff;
+}
+
+/*---------------------feature-------------------------*/
+.feature{
+	margin: 100px 0;
+	background-color:  #EAEDED;
+}
+.feature img{
+	max-width: 95%;
+	cursor: pointer;
+	margin-top: 20px;
+
+}
+.feature h2{
+	margin-top: 50px;
+	font-weight: bold;
+	line-height: 50px;
+	color: #000;
+	font-size: 30px;
+}
+.feature p{
+	color: #000;
+	font-size: 15px;
+}
+.feature a{
+	border: 2px solid #6900d1;
+	box-shadow: 0 9px 9px 1px rgba(204,204,204,0.5);
+}
+/*-------------testomonial---------*/
+
+.testmonial{
+	margin: 100px 0;
+
+}
+.carousel-item img{
+	width: 150px;
+	border-radius: 50%;
+}
+.carousel-item{
+	text-align: center;
+	height: 430px;
+}
+.carousel-caption{
+	z-index: -1 !important;
+	box-shadow: 0 0 15px 1px rgba(163,163,223,0.5);
+	border-radius: 5px;
+	margin-bottom: 50px;
+	background-color:  #6900d1 !important;
+}
+.testmonial h5{
+	margin-top: 55px;
+	color: #fff ! important;
+	font-weight: bold;
+	display: block;
+	text-align: center;
+}
+.testmonial small{
+	margin-top: 10px;
+	margin-bottom: 50px;
+	color: #fff !important; 
+	display: block;
+	text-align: center;
+}
+
+.testmonial h2{
+	color: #000;
+	font-weight: bold;
+	font-size: 30px;
+}
+.carousel-indicators li{
+	background-color:  #6900d1 !important;
+}
+
+@media only screen and (max-width: 800px)
+{
+	.carousel-item
+	{
+	height: 520px;
+    }
+    .carousel-caption
+    {
+    	margin: 0 10px 30px 10px;
+    	left: 0;
+    	right: 0;
+    }
+}
+
+/*------------------------- footer------------------------*/
+
+.footer{
+	background:  #6900d1 !important;
+	padding-top: 5px;
+	height: 500;
+}
+.footer h2{
+	color: #fff;
+	font-weight: 600;
+	margin: 70px 0;
+}
+.footer input{
+	width: 60%;
+	background: transparent;
+	outline: none;
+	border:0px;
+	border-bottom: 1px solid #fff;
+    margin-bottom: 30px;
+	color: #fff;
+
+	text-align: center;
+}
+.footer button{
+	padding: 6px;
+	width: 180px;
+	margin: auto;
+	display: block;
+	color: #fff;
+	border-radius: 5px;
+	border: 1px solid #fff;
+	font-size: 20px;
+	background: transparent;
+
+}
+
+/*----------------------------contact form---------------------*/
+
+
+.title h1{
+	font-weight: bold;
+	margin-top: 50px;
+}
+.form-row label{
+	margin-top: 10px;
+}
